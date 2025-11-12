@@ -1,5 +1,14 @@
-.contenedor{
+.contenedor {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    }
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+height: 500px;
+}
+
+.caja {
+    display: flex;
+    grid-row: 3;
+    grid-column: 3;
+background-color: aqua;
+
+}
